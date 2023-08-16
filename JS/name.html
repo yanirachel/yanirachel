@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> JAVA </title>
+</head>
+<body>
+
+	<h1>Javascript introduction</h1>
+	<script>
+		
+		// var a
+		// var name='ndp'
+		// var b = true;
+		// var arr=['juhi','yani','joly','leo'];
+		// a = 'jdp';
+		// b += 'ndp';
+
+       // document.write(typeof(arr));
+       // document.write(arr[1] +'<br>');
+       // document.write(arr[2]);
+		var trainees =[
+		{
+			'name':'yani',
+			'rollno':'21p31a0595',
+			'college':'ACET',
+			'branch':'CSE'
+        },
+        {
+        	'name':'juhi',
+			'rollno':'21p31a0550',
+			'college':'ACET',
+			'branch':'CSE'
+        },
+        {
+			'name':'joly',
+			'rollno':'21p31a0100',
+			'college':'ACET',
+			'branch':'CSE'
+        },
+        {  
+			'name':'joy',
+			'rollno':'21p31a0595',
+			'college':'ACET',
+			'branch':'CSE'
+        },
+        {  
+		'name':'mahiya',
+	 	'rollno':'21p31a0596',
+		'college':'ACET',
+		'branch':'CSE'
+        }
+        ]
+		//  console.log(trainees)
+		//  console.log(trainees.length)
+		// console.log(trainees[0].name);
+	    // console.log(trainees[1].name);
+		// console.log(trainees[2].name);
+		// console.log(trainees[3].name);
+		// console.log(trainees[0].rollno);
+	    // console.log(trainees[1].rollno);
+		// console.log(trainees[2].rollno);
+		// console.log(trainees[3].rollno);
+		
+		 for(var i=0;i<trainees.length; i++)
+	 {
+	  	console.log(trainees[i])
+       }
+       for (var i=0;i<trainees.length;i++){
+      for (var key in trainees[i]){
+        document.write(trainees[i][key])
+      }
+    }
+
+	// 	{
+
+	// 	 document.write(trainees[0].name+"<br>");
+	 //     document.write(trainees[0].rollno+"<br>");
+	 //     document.write(trainees[0].college+"<br>");
+	// 	 document.write(trainees[0].branch+"<br>");
+	 //     document.write(trainees[1].name+"<br>");
+	// 	 document.write(trainees[1].rollno+"<br>");
+	// 	 document.write(trainees[1].college+"<br>");
+	// 	 document.write(trainees[1].branch+"<br>");
+	// 	 document.write(trainees[2].name+"<br>");
+	// 	 document.write(trainees[2].rollno+"<br>");
+	 //     document.write(trainees[2].college+"<br>");
+	 //     document.write(trainees[2].branch+"<br>");
+	 //     document.write(trainees[3].name+"<br>");
+	 //     document.write(trainees[3].rollno+"<br>");
+	 //     document.write(trainees[3].college+"<br>");
+	 //     document.write(trainees[3].branch+"<br>");
+	 //     document.write(trainees[4].name+"<br>");
+	 //     document.write(trainees[4].rollno+"<br>");
+	 //     document.write(trainees[4].college+"<br>");
+	 //     document.write(trainees[4].branch+"<br>");
+
+	 // }
+
+</script>
+</body>
+</html>
